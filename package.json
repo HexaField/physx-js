@@ -15,6 +15,7 @@
     "make": "docker run --rm -v $(pwd):/src trzeci/emscripten ./make.sh",
     "clean": "docker run --rm -v $(pwd):/src trzeci/emscripten ./clean.sh",
     "shell": "docker run --rm -it -v $(pwd):/src trzeci/emscripten /bin/bash",
+    "copy": "./copy.sh",
     "prep-examples": "./prep-examples.sh"
   }
 }
